@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>pop massage
+        </title>
+        <link rel="stylesheet" href="Aleart.css">
+    </head>
+    <body>
+        <div id ="container">
+            <button onclick="popup()"> click me </button>
+        </div>
+        <p id="popup"></p>
+        <p id="date"></p>
+        <p id="text"></p>
+        <script>
+            function popup(){
+                
+                document.getElementById("popup").innerHTML =alert(Date());
+                document.getElementById('date').innerHTML = Date();
+            }document.getElementById('text').innerHTML = 'anil yadav';
+        </script>
+    </body>
+</html>
